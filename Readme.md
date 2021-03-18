@@ -40,6 +40,3 @@ _**Note:**_
 * The load test can be run using the following command
   
 `jmeter -f -n -t <path to the .jmx file> -l report.csv -e -o <path to reports folder>`
-
-**Bug report**
-UI and API testing bugs are mentioned in "Bug_Report.txt" file

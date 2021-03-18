@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="UiAutomationTestProject" />
+        <module name="ui-api-load-sample-project" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
