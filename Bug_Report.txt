@@ -1,0 +1,38 @@
+UI Application Bugs
+--------------------
+Bug 1: User is able to submit registration form with a future date of birth
+
+Steps to reproduce:
+1. User visits https://demoqa.com/automation-practice-form website.
+2. Enters/Selects values for the following fields:
+	a. First Name as "Tuhin"
+	b. Last Name as "Mitra"
+	c. Email as "tuhin.mitra@example.com"
+    d. selects Gender as "Male"
+   	e. Mobile as "9038312345"
+3. Selects a future date for the Date of Birth
+4. Clicks Submit button
+
+Expected:
+User is restricted to submit the form with a validation message, for example - future date is not allowed as date of birth.
+
+Actual:
+User is allowed to submit the form and sees a confirmation pop up
+
+
+API Application Bugs:
+---------------------
+Bug 1: Confusing message in delete user API response
+
+Steps to reproduce:
+1. User open Postman or any other api testing tool
+2. User sends a Delete request with the following
+    a. basic authorization: username -  user name of an existing user
+    b. basic authorization: password -  password of the same user
+    c. enter request URL as - https://bookstore.toolsqa.com/Account/v1/User/{UUID} where {UUID} is the user id of the existing user
+
+Expected:
+User receives 200 response code and a valid message like User is successfully deleted
+
+Actual:
+User receives 200 response code but the message is confusing - "User Id not correct!"

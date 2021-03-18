@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-10T08:44:08Z" name="Default Suite" finished-at="2021-03-10T08:44:11Z" duration-ms="2776">
+    <groups>
+    </groups>
+    <test started-at="2021-03-10T08:44:08Z" name="UiAutomationTestProject" finished-at="2021-03-10T08:44:11Z" duration-ms="2776">
+      <class name="ApiTest">
+        <test-method signature="createNewUserExistingDetailsNegativeTest()[pri:0, instance:ApiTest@e056f20]" started-at="2021-03-10T09:44:08Z" name="createNewUserExistingDetailsNegativeTest" finished-at="2021-03-10T09:44:10Z" duration-ms="2073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewUserExistingDetailsNegativeTest -->
+        <test-method signature="createNewUserTest()[pri:0, instance:ApiTest@e056f20]" started-at="2021-03-10T09:44:10Z" name="createNewUserTest" finished-at="2021-03-10T09:44:10Z" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewUserTest -->
+        <test-method signature="deleteBooksTest()[pri:0, instance:ApiTest@e056f20]" started-at="2021-03-10T09:44:10Z" name="deleteBooksTest" finished-at="2021-03-10T09:44:10Z" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBooksTest -->
+        <test-method signature="deleteUserNoAuthNegativeTest()[pri:0, instance:ApiTest@e056f20]" started-at="2021-03-10T09:44:10Z" name="deleteUserNoAuthNegativeTest" finished-at="2021-03-10T09:44:11Z" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserNoAuthNegativeTest -->
+        <test-method signature="getBookInvalidIsbnNegativeTest()[pri:0, instance:ApiTest@e056f20]" started-at="2021-03-10T09:44:11Z" name="getBookInvalidIsbnNegativeTest" finished-at="2021-03-10T09:44:11Z" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookInvalidIsbnNegativeTest -->
+        <test-method signature="getUsersBooksTest()[pri:0, instance:ApiTest@e056f20]" started-at="2021-03-10T09:44:11Z" name="getUsersBooksTest" finished-at="2021-03-10T09:44:11Z" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsersBooksTest -->
+      </class> <!-- ApiTest -->
+    </test> <!-- UiAutomationTestProject -->
+  </suite> <!-- Default Suite -->
+</testng-results>

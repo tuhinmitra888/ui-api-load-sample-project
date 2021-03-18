@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-11T19:33:26Z" name="Api Test Suite" finished-at="2021-03-11T19:33:38Z" duration-ms="11766">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:DemoAppTest@23348b5d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-03-11T19:33:26Z" name="C:/Tuhin_Work/UiAutomationTestProject" finished-at="2021-03-11T19:33:38Z" duration-ms="11766">
+      <class name="DemoAppTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:DemoAppTest@23348b5d]" started-at="2021-03-11T20:33:29Z" name="setUpClass" finished-at="2021-03-11T20:33:29Z" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:DemoAppTest@23348b5d]" started-at="2021-03-11T20:33:29Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-11T20:33:35Z" duration-ms="5747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["anonymous user sees valid results if (s)he enters valid search criteria"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Demo application feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:DemoAppTest@23348b5d]" started-at="2021-03-11T20:33:29Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-11T20:33:38Z" duration-ms="8670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["a registered user is able to add books to his/her collection"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Demo application feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:DemoAppTest@23348b5d]" started-at="2021-03-11T20:33:29Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-11T20:33:33Z" duration-ms="3919" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["anonymous user is able to drag and drop ui element"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Demo application feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:DemoAppTest@23348b5d]" started-at="2021-03-11T20:33:29Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-11T20:33:33Z" duration-ms="4022" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["anonymous user sees no books if (s)he enters invalid search criteria"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Demo application feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:DemoAppTest@23348b5d]" started-at="2021-03-11T20:33:29Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-11T20:33:34Z" duration-ms="4727" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["anonymous user is able to upload an image and successfully submit student registration form"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Demo application feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:DemoAppTest@23348b5d]" started-at="2021-03-11T20:33:38Z" name="tearDownClass" finished-at="2021-03-11T20:33:38Z" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- DemoAppTest -->
+      <class name="ApiTest">
+        <test-method signature="createNewUserExistingDetailsNegativeTest()[pri:0, instance:ApiTest@6913c1fb]" started-at="2021-03-11T20:33:26Z" name="createNewUserExistingDetailsNegativeTest" finished-at="2021-03-11T20:33:28Z" duration-ms="1842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewUserExistingDetailsNegativeTest -->
+        <test-method signature="createNewUserTest()[pri:0, instance:ApiTest@6913c1fb]" started-at="2021-03-11T20:33:28Z" name="createNewUserTest" finished-at="2021-03-11T20:33:28Z" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewUserTest -->
+        <test-method signature="deleteBooksTest()[pri:0, instance:ApiTest@6913c1fb]" started-at="2021-03-11T20:33:28Z" name="deleteBooksTest" finished-at="2021-03-11T20:33:28Z" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBooksTest -->
+        <test-method signature="deleteUserNoAuthNegativeTest()[pri:0, instance:ApiTest@6913c1fb]" started-at="2021-03-11T20:33:28Z" name="deleteUserNoAuthNegativeTest" finished-at="2021-03-11T20:33:28Z" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserNoAuthNegativeTest -->
+        <test-method signature="getBookInvalidIsbnNegativeTest()[pri:0, instance:ApiTest@6913c1fb]" started-at="2021-03-11T20:33:28Z" name="getBookInvalidIsbnNegativeTest" finished-at="2021-03-11T20:33:29Z" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookInvalidIsbnNegativeTest -->
+        <test-method signature="getUsersBooksTest()[pri:0, instance:ApiTest@6913c1fb]" started-at="2021-03-11T20:33:29Z" name="getUsersBooksTest" finished-at="2021-03-11T20:33:29Z" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsersBooksTest -->
+      </class> <!-- ApiTest -->
+    </test> <!-- C:/Tuhin_Work/UiAutomationTestProject -->
+  </suite> <!-- Api Test Suite -->
+</testng-results>
